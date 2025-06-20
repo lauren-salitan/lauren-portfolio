@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar.jsx';
 import Home from './pages/Home.jsx';
 import Experience from './pages/Experience.jsx';
+import Projects from './pages/Projects.jsx';
 import About from './pages/About.jsx';     // (stub for now)
 import Contact from './pages/Contact.jsx'; // (stub for now)
 
@@ -13,6 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

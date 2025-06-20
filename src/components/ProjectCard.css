@@ -1,0 +1,22 @@
+.proj-card {
+  background: var(--clr-muted);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.proj-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+.thumb img { width: 100%; border-radius: var(--radius); }
+
+.stack {
+  display: flex; flex-wrap: wrap; gap: .35rem;
+  font-size: .75rem; opacity: .8; list-style: none; padding: 0;
+}
+.stack li { background: #fff; padding: .15rem .5rem; border-radius: 4px; }
+
+.metrics { font-size: .85rem; font-weight: 600; color: var(--clr-accent); }

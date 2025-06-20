@@ -30,4 +30,12 @@ export const featuredProjects = [
     highlight: true,
   },
   // TODO: add more projects and GitHub links
+  {
+    id: "google-calendar",
+    title: "Google Calendar Scheduler",
+    tag: "Automation",
+    stack: ["Apps Script", "Zapier", "HubSpot"],
+    excerpt: "Creates shared calendar events for every new booking.",
+    metrics: "Eliminated double-booking incidents.",
+  },
 ];
