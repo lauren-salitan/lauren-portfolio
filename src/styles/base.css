@@ -1,10 +1,10 @@
 /* ---- CSS Reset -------------------------------------------------------- */
 :root {
-  --font-sans: "Inter", system-ui, sans-serif;
+  --font-sans: "Nunito Sans", "Inter", system-ui, sans-serif;
   --clr-bg: #ffffff;
-  --clr-text: #222;
-  --clr-accent: #96282b; /* matches GreenerFlows accent */
-  --clr-muted: #f6f6f6;
+  --clr-text: #2e2e2e;
+  --clr-accent: #a99865;
+  --clr-muted: #deefe9;
   --radius: 12px;
   --transition: 0.25s ease;
 }
