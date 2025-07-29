@@ -5,14 +5,14 @@ export default function Home() {
     <section className="home-hero">
       <h1>Hi, I'm Lauren Salitan</h1>
       <p className="tagline">
-        Solutions&nbsp;Engineer&nbsp;• Workflow&nbsp;Optimizer&nbsp;• Climate&nbsp;Advocate
+        Founder • Soultions Engineer
       </p>
 
-      <div className="stats-bar">
+      {/* <div className="stats-bar">
         <div><strong>25+</strong><span>Automations shipped</span></div>
         <div><strong>1K+</strong><span>Hours saved for clients</span></div>
         <div><strong>7</strong><span>Countries worked&nbsp;from</span></div>
-      </div>
+      </div> */}
     </section>
   );
 }

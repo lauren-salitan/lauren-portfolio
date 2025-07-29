@@ -8,10 +8,10 @@ export default function NavBar() {
         Lauren Salitan
       </NavLink>
       <nav>
-        <NavLink to="/experience" className="nav-link">Experience</NavLink>
-        <NavLink to="/projects" className="nav-link">Projects</NavLink>
-        <NavLink to="/about" className="nav-link">About</NavLink>
-        <NavLink to="/contact" className="nav-link">Contact</NavLink>
+        <NavLink to="/experience" className="nav-link"> Experience </NavLink>
+        <NavLink to="/projects" className="nav-link"> Projects </NavLink>
+        <NavLink to="/about" className="nav-link"> About </NavLink>
+        <NavLink to="/contact" className="nav-link"> Contact </NavLink>
       </nav>
     </header>
   );
