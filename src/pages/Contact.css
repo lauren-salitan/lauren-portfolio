@@ -1,0 +1,10 @@
+.contact-head,
+.contact-embed {
+  padding: 1.35rem;
+  border: 1px solid var(--clr-border);
+}
+
+.contact-embed iframe {
+  width: 100%;
+  border: none;
+}
