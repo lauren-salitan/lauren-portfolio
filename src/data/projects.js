@@ -8,7 +8,7 @@ export const featuredProjects = [
     excerpt: "Uploads a transaction image → parses via AI → updates CRM & emails PDF receipt.",
     metrics: "Saved 20+ hrs/month, eliminated all copy-paste errors.",
     highlight: true,
-    github: "", // TODO: add link if public
+    github: "",
   },
   {
     id: "inventory-tracker",

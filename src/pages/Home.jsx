@@ -5,7 +5,8 @@ export default function Home() {
     <section className="home-hero">
       <h1>Hi, I'm Lauren Salitan</h1>
       <p className="tagline">
-        Founder • Soultions Engineer
+        {/* Founder • Soultions Engineer */}
+        Product-minded builder focused on internal tools, workflow automation, and systems design.
       </p>
 
       {/* <div className="stats-bar">
