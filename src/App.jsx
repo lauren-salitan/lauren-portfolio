@@ -5,6 +5,7 @@ import Experience from './pages/Experience.jsx';
 import Projects from './pages/Projects.jsx';
 import About from './pages/About.jsx';     // (stub for now)
 import Contact from './pages/Contact.jsx'; // (stub for now)
+import ProjectDetail from './pages/ProjectDetail.jsx';
 import { useState, useEffect } from "react";
 
 export default function App() {
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:id" element={<ProjectDetail />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

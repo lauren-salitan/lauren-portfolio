@@ -30,13 +30,18 @@ export default function Projects() {
   }, []);
 
   return (
-    <section className="projects">
-      <h2>Featured Projects</h2>
+    <section className="projects page">
+      <div className="container">
+        <div className="projects-header">
+          <h2>Featured Work</h2>
+          <p className="projects-lede">Automation, internal tools, and web builds shipped with speed and measurable impact. Click any card for the full case study.</p>
+        </div>
 
-      <div className="proj-grid" ref={gridRef}>
-        {featuredProjects.map(p => (
-          <ProjectCard key={p.id} proj={p} />
-        ))}
+        <div className="proj-grid" ref={gridRef}>
+          {featuredProjects.map(p => (
+            <ProjectCard key={p.id} proj={p} />
+          ))}
+        </div>
       </div>
     </section>
   );

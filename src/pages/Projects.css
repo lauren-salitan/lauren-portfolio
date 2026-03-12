@@ -1,7 +1,9 @@
-.projects { padding-top: 4rem; }
+.projects-header { display: grid; gap: 0.6rem; max-width: 640px; }
+.projects-lede { color: var(--clr-muted); }
+
 .proj-grid {
   display: grid;
-  gap: 2rem;
+  gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  margin-top: 3rem;
+  margin-top: 2.5rem;
 }

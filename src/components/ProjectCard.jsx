@@ -1,15 +1,17 @@
+import { Link } from 'react-router-dom';
 import './ProjectCard.css';
 
 export default function ProjectCard({ proj }) {
-  return (
-    <article className="proj-card">
-      {/* ⇣ replace with real screenshot or logo paths later */}
+  const body = (
+    <article className="proj-card surface">
       <div className="thumb">
-        <img src={`/placeholder-${proj.tag?.toLowerCase() || 'proj'}.svg`} alt="" />
+        <div className="pill">{proj.tag}</div>
       </div>
 
-      <h3>{proj.title}</h3>
-      <p className="excerpt">{proj.excerpt}</p>
+      <div className="stack-md">
+        <h3>{proj.title}</h3>
+        <p className="excerpt">{proj.excerpt}</p>
+      </div>
 
       <ul className="stack">
         {proj.stack.map(tech => (
@@ -18,7 +20,16 @@ export default function ProjectCard({ proj }) {
       </ul>
 
       {proj.metrics && <p className="metrics">{proj.metrics}</p>}
-      {/* TODO: add link buttons to GitHub / live demo if desired */}
+      {proj.caseStudy && <span className="cta">Read case study →</span>}
     </article>
   );
+
+  if (proj.caseStudy) {
+    return (
+      <Link to={`/projects/${proj.caseStudy}`} className="proj-link">
+        {body}
+      </Link>
+    );
+  }
+  return body;
 }

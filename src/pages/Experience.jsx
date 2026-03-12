@@ -5,24 +5,32 @@ import './Experience.css';
 
 export default function Experience() {
   return (
-    <div className="experience">
-      <section>
-        <h2>Work&nbsp;Experience</h2>
-        <div className="timeline">
-          {workTimeline.map(item => (
-            <TimelineItem key={item.id} item={item} />
-          ))}
-        </div>
-      </section>
+    <div className="experience page">
+      <div className="container stack-lg">
+        <section className="exp-block">
+          <div className="exp-head">
+            <h2>Work Experience</h2>
+            <p className="exp-lede">Systems, automation, and product delivery across climate, travel, and startup teams.</p>
+          </div>
+          <div className="timeline">
+            {workTimeline.map(item => (
+              <TimelineItem key={item.id} item={item} />
+            ))}
+          </div>
+        </section>
 
-      <section>
-        <h2>Education</h2>
-        <div className="timeline">
-          {education.map(item => (
-            <TimelineItem key={item.school} item={item} />
-          ))}
-        </div>
-      </section>
+        <section className="exp-block">
+          <div className="exp-head">
+            <h2>Education</h2>
+            <p className="exp-lede">Foundations in policy, product, and engineering.</p>
+          </div>
+          <div className="timeline">
+            {education.map(item => (
+              <TimelineItem key={item.school} item={item} />
+            ))}
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

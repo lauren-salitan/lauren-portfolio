@@ -1,0 +1,18 @@
+.experience {
+  background: linear-gradient(180deg, rgba(124, 155, 255, 0.04), rgba(124, 244, 210, 0.02));
+}
+
+.exp-head {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 620px;
+  margin-bottom: 1.5rem;
+}
+.exp-lede { color: var(--clr-muted); }
+
+.timeline {
+  display: grid;
+  gap: 1.25rem;
+  border-left: 1px solid var(--clr-border);
+  padding-left: 1.5rem;
+}
