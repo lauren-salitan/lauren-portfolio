@@ -41,3 +41,16 @@
   gap: 0.4rem;
   margin-top: 0.4rem;
 }
+
+.bullet-heading {
+  color: var(--clr-text);
+  font-weight: 700;
+}
+
+.sub-bullets {
+  margin-top: 0.3rem;
+  padding-left: 1rem;
+  display: grid;
+  gap: 0.3rem;
+  list-style: disc;
+}

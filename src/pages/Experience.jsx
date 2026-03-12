@@ -10,7 +10,7 @@ export default function Experience() {
         <section className="exp-block">
           <div className="exp-head">
             <h2>Work Experience</h2>
-            <p className="exp-lede">Systems, automation, and product delivery across climate, travel, and startup teams.</p>
+            {/* <p className="exp-lede">Systems, automation, and product delivery across climate, travel, and startup teams.</p> */}
           </div>
           <div className="timeline">
             {workTimeline.map(item => (

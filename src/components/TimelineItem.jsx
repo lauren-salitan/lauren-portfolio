@@ -11,9 +11,19 @@ export default function TimelineItem({ item }) {
         <span className="period">{item.period}</span>
         {item.bullets && (
           <ul>
-            {item.bullets.map(b => (
-              <li key={b}>{b}</li>
-            ))}
+            {item.bullets.map((b, idx) => {
+              if (typeof b === 'string') return <li key={idx}>{b}</li>;
+              return (
+                <li key={idx}>
+                  <span className="bullet-heading">{b.title}</span>
+                  {b.items && (
+                    <ul className="sub-bullets">
+                      {b.items.map(sub => <li key={sub}>{sub}</li>)}
+                    </ul>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         )}
       </div>
