@@ -5,13 +5,10 @@ export default function Home() {
     <section className="home-hero page">
       <div className="container hero-grid">
         <div className="hero-text stack-lg">
-          <span className="eyebrow">
-            {/* Solutions engineer · Founder, GreenerFlows */}
-            Technical Product & Systems Builder
-            </span>
-          <h1>Building lean systems that keep teams moving.</h1>
+          <span className="eyebrow">Product systems & ops · Founder, GreenerFlows</span>
+          <h1>I design internal products that keep teams moving.</h1>
           <p className="lede">
-            I design and ship automation, internal tools, and modern web apps that remove friction for ops, sales, and product teams.
+            Technical product and systems builder who designs internal platforms, automation, and operational infrastructure that turn messy workflows into scalable software systems.
           </p>
 
           <div className="hero-actions">
@@ -20,30 +17,30 @@ export default function Home() {
           </div>
 
           <div className="hero-chips">
-            <span className="chip">Workflow automation</span>
+            <span className="chip">Product ops</span>
             <span className="chip">Internal tools</span>
-            <span className="chip">Operational infrastructure</span>
+            <span className="chip">Automation & AI</span>
           </div>
         </div>
 
         <div className="hero-card surface">
           <div className="hero-card__header">Currently</div>
           <div className="hero-stats">
-            {/* <div>
-              <p className="stat-label">Availability</p>
-              <p className="stat-value">April 2026</p>
-            </div> */}
+            <div>
+              <p className="stat-label">Focus</p>
+              <p className="stat-value">Product Ops / Internal Tools</p>
+            </div>
             <div>
               <p className="stat-label">Based in</p>
               <p className="stat-value">Austin, TX</p>
             </div>
-            <div>
+            {/* <div>
               <p className="stat-label">Recent focus</p>
-              <p className="stat-value">Ops automation</p>
-            </div>
+              <p className="stat-value">Systems for ops & revenue teams</p>
+            </div> */}
           </div>
           <div className="hero-foot">
-            <p className="muted">Helping teams to streamline operations and launch products fast.</p>
+            <p className="muted">Helping teams to streamline operations and ship products fast.</p>
           </div>
         </div>
       </div>

@@ -6,11 +6,9 @@ export default function About() {
       <div className="container stack-lg">
         <div className="about-hero surface">
           <p className="eyebrow">About</p>
-          <h1>Hi, I’m Lauren — I build calm, resilient systems that help teams move faster.</h1>
+          <h1>Hi, I’m Lauren — a systems-focused product builder for internal tools and ops.</h1>
           <p className="about-lede">
-            I’m a solutions engineer and founder of GreenerFlows. My sweet spot is translating messy, manual processes into
-            automation, internal tools, and productized workflows that real teams adopt. I blend product thinking, systems
-            design, and hands-on engineering to ship reliable outcomes.
+            I specialize in designing internal systems that power how companies operate—from CRM platforms and automation pipelines to scheduling systems, analytics dashboards, and operational tools. My work sits at the intersection of product, engineering, and operations: understanding how teams work, identifying bottlenecks, and building systems that make organizations run more efficiently.
           </p>
         </div>
 
@@ -18,16 +16,16 @@ export default function About() {
           <div className="about-card surface">
             <h3>What I’m great at</h3>
             <ul>
-              <li>Mapping ambiguous workflows into clear architectures and roadmaps.</li>
-              <li>Building CRMs, dashboards, and automation that survive busy seasons.</li>
-              <li>Working end-to-end: discovery → design → build → training → iteration.</li>
-              <li>Keeping non-technical teams in the loop with clear docs and demos.</li>
+              <li>Translating ambiguous workflows into clear product specs, architectures, and roadmaps.</li>
+              <li>Designing internal tools, CRMs, and automation that withstand peak ops and change.</li>
+              <li>Working end-to-end: discovery → design → build → rollout → adoption → iteration.</li>
+              <li>Keeping stakeholders aligned with crisp artifacts, demos, and documentation.</li>
             </ul>
           </div>
 
           <div className="about-card surface">
             <h3>Tooling</h3>
-            <p className="muted">I use the right level of code for the problem.</p>
+            <p className="muted">I use the right level of code for the problem—shipping fast, then hardening.</p>
             <div className="pill-list">
               <span>JavaScript / TypeScript</span><span>Python</span><span>React</span><span>Node</span>
               <span>PostgreSQL</span><span>Supabase</span><span>Zapier (advanced)</span><span>Apps Script</span>
@@ -38,10 +36,10 @@ export default function About() {
           <div className="about-card surface">
             <h3>Values</h3>
             <ul>
-              <li>Design for adoption: tools must be obvious and reliable.</li>
-              <li>Measure impact: hours saved, errors removed, clarity gained.</li>
-              <li>Bias to shipping: fast iterations with tight feedback loops.</li>
-              <li>Documentation is part of the product, not an afterthought.</li>
+              <li>Design for adoption: internal products must be obvious, reliable, and documented.</li>
+              <li>Measure impact: hours saved, errors removed, decisions improved.</li>
+              <li>Bias to shipping: tight loops with stakeholders beat long spec cycles.</li>
+              <li>Systems thinking: solve for the whole workflow, not a single step.</li>
             </ul>
           </div>
         </div>
@@ -49,7 +47,7 @@ export default function About() {
         <div className="about-highlight surface">
           <div className="stack-md">
             <h3>Currently</h3>
-            <p className="muted">Based in Austin, TX · Available for new projects starting April 2026.</p>
+            <p className="muted">Based in Austin, TX</p>
           </div>
           <div className="about-cta">
             <a className="btn" href="/contact">Start a project</a>

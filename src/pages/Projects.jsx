@@ -34,7 +34,9 @@ export default function Projects() {
       <div className="container">
         <div className="projects-header">
           <h2>Featured Work</h2>
-          <p className="projects-lede">Automation, internal tools, and web builds shipped with speed and measurable impact. Click any card for the full case study.</p>
+          <p className="projects-lede">Products, automation, and decision-support systems for ops teams.</p>
+          <p className="projects-lede">Click a card for the full case study.</p>
+
         </div>
 
         <div className="proj-grid" ref={gridRef}>
