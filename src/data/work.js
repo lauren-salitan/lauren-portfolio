@@ -11,16 +11,16 @@ export const workTimeline = [
       {
         title: "Selected Client Engagements:",
         items: [
-          "Big Truck Farms — sales & inventory analytics platform; 20+ hours/week reporting saved.",
-          "Netric / Ommeya — Notion productivity hub with workflow/energy audits and structured rituals.",
-          "Bushwhack Adventures — CRM and automation ecosystem spanning bookings, arrivals, receipts, and trip syllabuses.",
+          "Sales & inventory analytics platform; 20+ hours/week reporting saved.",
+          "Productivity hub with workflow/energy audits and structured rituals.",
+          "CRM and automation ecosystem spanning bookings, arrivals, receipts, and trip syllabuses.",
         ],
       },
     ],
   },
   {
     id: "bushwhack",
-    company: "Bushwhack Adventures",
+    company: "",
     role: "Technical Product & Systems Lead",
     period: "Dec 2023 – Present",
     highlight: true,
